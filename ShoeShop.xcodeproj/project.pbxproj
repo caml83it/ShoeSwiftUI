@@ -13,6 +13,27 @@
 		B72ABCAC28255EA300B939DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B72ABCAB28255EA300B939DB /* Preview Assets.xcassets */; };
 		B72ABCAE28255EA300B939DB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72ABCAD28255EA300B939DB /* Persistence.swift */; };
 		B72ABCB128255EA300B939DB /* ShoeShop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B72ABCAF28255EA300B939DB /* ShoeShop.xcdatamodeld */; };
+		B72ABCC72825636B00B939DB /* SourceSerifPro-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B72ABCBB2825636A00B939DB /* SourceSerifPro-BlackItalic.ttf */; };
+		B72ABCC82825636B00B939DB /* SourceSerifPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B72ABCBC2825636A00B939DB /* SourceSerifPro-Bold.ttf */; };
+		B72ABCC92825636B00B939DB /* SourceSerifPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B72ABCBD2825636A00B939DB /* SourceSerifPro-Light.ttf */; };
+		B72ABCCA2825636B00B939DB /* SourceSerifPro-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B72ABCBE2825636A00B939DB /* SourceSerifPro-LightItalic.ttf */; };
+		B72ABCCB2825636B00B939DB /* SourceSerifPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B72ABCBF2825636A00B939DB /* SourceSerifPro-SemiBold.ttf */; };
+		B72ABCCC2825636B00B939DB /* SourceSerifPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B72ABCC02825636A00B939DB /* SourceSerifPro-Regular.ttf */; };
+		B72ABCCD2825636B00B939DB /* SourceSerifPro-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B72ABCC12825636A00B939DB /* SourceSerifPro-SemiBoldItalic.ttf */; };
+		B72ABCCE2825636B00B939DB /* SourceSerifPro-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B72ABCC22825636A00B939DB /* SourceSerifPro-Italic.ttf */; };
+		B72ABCCF2825636B00B939DB /* SourceSerifPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B72ABCC32825636A00B939DB /* SourceSerifPro-Black.ttf */; };
+		B72ABCD02825636B00B939DB /* SourceSerifPro-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B72ABCC42825636A00B939DB /* SourceSerifPro-ExtraLightItalic.ttf */; };
+		B72ABCD12825636B00B939DB /* SourceSerifPro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B72ABCC52825636A00B939DB /* SourceSerifPro-ExtraLight.ttf */; };
+		B72ABCD22825636B00B939DB /* SourceSerifPro-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B72ABCC62825636B00B939DB /* SourceSerifPro-BoldItalic.ttf */; };
+		B72ABCD62825652000B939DB /* UIFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72ABCD52825652000B939DB /* UIFonts.swift */; };
+		B72ABCD82825667E00B939DB /* UIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72ABCD72825667E00B939DB /* UIColors.swift */; };
+		B72ABCDB2825795300B939DB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72ABCDA2825795300B939DB /* LoginView.swift */; };
+		B72ABCDE282579B800B939DB /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72ABCDD282579B800B939DB /* SignUpView.swift */; };
+		B77A677A2826EA62005CC98A /* SwiftUIRouter in Frameworks */ = {isa = PBXBuildFile; productRef = B77A67792826EA62005CC98A /* SwiftUIRouter */; };
+		B77A677C2826EB23005CC98A /* AppRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A677B2826EB23005CC98A /* AppRoute.swift */; };
+		B77A677F2826ED49005CC98A /* NavigationTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A677E2826ED49005CC98A /* NavigationTransition.swift */; };
+		B77A67822826EDA7005CC98A /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A67812826EDA7005CC98A /* View+Extension.swift */; };
+		B77A67842827CA5C005CC98A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A67832827CA5C005CC98A /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +44,27 @@
 		B72ABCAB28255EA300B939DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B72ABCAD28255EA300B939DB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		B72ABCB028255EA300B939DB /* ShoeShop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShoeShop.xcdatamodel; sourceTree = "<group>"; };
+		B72ABCBB2825636A00B939DB /* SourceSerifPro-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSerifPro-BlackItalic.ttf"; sourceTree = "<group>"; };
+		B72ABCBC2825636A00B939DB /* SourceSerifPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSerifPro-Bold.ttf"; sourceTree = "<group>"; };
+		B72ABCBD2825636A00B939DB /* SourceSerifPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSerifPro-Light.ttf"; sourceTree = "<group>"; };
+		B72ABCBE2825636A00B939DB /* SourceSerifPro-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSerifPro-LightItalic.ttf"; sourceTree = "<group>"; };
+		B72ABCBF2825636A00B939DB /* SourceSerifPro-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSerifPro-SemiBold.ttf"; sourceTree = "<group>"; };
+		B72ABCC02825636A00B939DB /* SourceSerifPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSerifPro-Regular.ttf"; sourceTree = "<group>"; };
+		B72ABCC12825636A00B939DB /* SourceSerifPro-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSerifPro-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		B72ABCC22825636A00B939DB /* SourceSerifPro-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSerifPro-Italic.ttf"; sourceTree = "<group>"; };
+		B72ABCC32825636A00B939DB /* SourceSerifPro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSerifPro-Black.ttf"; sourceTree = "<group>"; };
+		B72ABCC42825636A00B939DB /* SourceSerifPro-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSerifPro-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		B72ABCC52825636A00B939DB /* SourceSerifPro-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSerifPro-ExtraLight.ttf"; sourceTree = "<group>"; };
+		B72ABCC62825636B00B939DB /* SourceSerifPro-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSerifPro-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B72ABCD32825638D00B939DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B72ABCD52825652000B939DB /* UIFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFonts.swift; sourceTree = "<group>"; };
+		B72ABCD72825667E00B939DB /* UIColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColors.swift; sourceTree = "<group>"; };
+		B72ABCDA2825795300B939DB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B72ABCDD282579B800B939DB /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		B77A677B2826EB23005CC98A /* AppRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRoute.swift; sourceTree = "<group>"; };
+		B77A677E2826ED49005CC98A /* NavigationTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTransition.swift; sourceTree = "<group>"; };
+		B77A67812826EDA7005CC98A /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		B77A67832827CA5C005CC98A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B77A677A2826EA62005CC98A /* SwiftUIRouter in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,12 +98,17 @@
 		B72ABCA328255EA000B939DB /* ShoeShop */ = {
 			isa = PBXGroup;
 			children = (
+				B77A67802826ED77005CC98A /* Extensions */,
+				B72ABCD32825638D00B939DB /* Info.plist */,
+				B72ABCBA2825633D00B939DB /* Fonts */,
+				B72ABCB72825607900B939DB /* Presentations */,
 				B72ABCA428255EA000B939DB /* ShoeShopApp.swift */,
 				B72ABCA628255EA000B939DB /* ContentView.swift */,
 				B72ABCA828255EA300B939DB /* Assets.xcassets */,
 				B72ABCAD28255EA300B939DB /* Persistence.swift */,
 				B72ABCAF28255EA300B939DB /* ShoeShop.xcdatamodeld */,
 				B72ABCAA28255EA300B939DB /* Preview Content */,
+				B77A677B2826EB23005CC98A /* AppRoute.swift */,
 			);
 			path = ShoeShop;
 			sourceTree = "<group>";
@@ -71,6 +119,102 @@
 				B72ABCAB28255EA300B939DB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B72ABCB72825607900B939DB /* Presentations */ = {
+			isa = PBXGroup;
+			children = (
+				B77A677D2826ED34005CC98A /* ViewModifiers */,
+				B72ABCD42825651400B939DB /* Shared */,
+				B72ABCB92825609300B939DB /* Views */,
+				B72ABCB82825608000B939DB /* Components */,
+			);
+			path = Presentations;
+			sourceTree = "<group>";
+		};
+		B72ABCB82825608000B939DB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B72ABCB92825609300B939DB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B72ABCDF282595E200B939DB /* Home */,
+				B72ABCDC282579A900B939DB /* SignUp */,
+				B72ABCD92825794800B939DB /* Login */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B72ABCBA2825633D00B939DB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B72ABCC32825636A00B939DB /* SourceSerifPro-Black.ttf */,
+				B72ABCBB2825636A00B939DB /* SourceSerifPro-BlackItalic.ttf */,
+				B72ABCBC2825636A00B939DB /* SourceSerifPro-Bold.ttf */,
+				B72ABCC62825636B00B939DB /* SourceSerifPro-BoldItalic.ttf */,
+				B72ABCC52825636A00B939DB /* SourceSerifPro-ExtraLight.ttf */,
+				B72ABCC42825636A00B939DB /* SourceSerifPro-ExtraLightItalic.ttf */,
+				B72ABCC22825636A00B939DB /* SourceSerifPro-Italic.ttf */,
+				B72ABCBD2825636A00B939DB /* SourceSerifPro-Light.ttf */,
+				B72ABCBE2825636A00B939DB /* SourceSerifPro-LightItalic.ttf */,
+				B72ABCC02825636A00B939DB /* SourceSerifPro-Regular.ttf */,
+				B72ABCBF2825636A00B939DB /* SourceSerifPro-SemiBold.ttf */,
+				B72ABCC12825636A00B939DB /* SourceSerifPro-SemiBoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B72ABCD42825651400B939DB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B72ABCD52825652000B939DB /* UIFonts.swift */,
+				B72ABCD72825667E00B939DB /* UIColors.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		B72ABCD92825794800B939DB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B72ABCDA2825795300B939DB /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B72ABCDC282579A900B939DB /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				B72ABCDD282579B800B939DB /* SignUpView.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		B72ABCDF282595E200B939DB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B77A67832827CA5C005CC98A /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B77A677D2826ED34005CC98A /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				B77A677E2826ED49005CC98A /* NavigationTransition.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		B77A67802826ED77005CC98A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B77A67812826EDA7005CC98A /* View+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,6 +233,9 @@
 			dependencies = (
 			);
 			name = ShoeShop;
+			packageProductDependencies = (
+				B77A67792826EA62005CC98A /* SwiftUIRouter */,
+			);
 			productName = ShoeShop;
 			productReference = B72ABCA128255EA000B939DB /* ShoeShop.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +264,9 @@
 				Base,
 			);
 			mainGroup = B72ABC9828255EA000B939DB;
+			packageReferences = (
+				B77A67782826EA62005CC98A /* XCRemoteSwiftPackageReference "SwiftUIRouter" */,
+			);
 			productRefGroup = B72ABCA228255EA000B939DB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -131,8 +281,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B72ABCD22825636B00B939DB /* SourceSerifPro-BoldItalic.ttf in Resources */,
+				B72ABCCC2825636B00B939DB /* SourceSerifPro-Regular.ttf in Resources */,
+				B72ABCD02825636B00B939DB /* SourceSerifPro-ExtraLightItalic.ttf in Resources */,
+				B72ABCCE2825636B00B939DB /* SourceSerifPro-Italic.ttf in Resources */,
+				B72ABCCA2825636B00B939DB /* SourceSerifPro-LightItalic.ttf in Resources */,
+				B72ABCC82825636B00B939DB /* SourceSerifPro-Bold.ttf in Resources */,
+				B72ABCC92825636B00B939DB /* SourceSerifPro-Light.ttf in Resources */,
+				B72ABCC72825636B00B939DB /* SourceSerifPro-BlackItalic.ttf in Resources */,
+				B72ABCCF2825636B00B939DB /* SourceSerifPro-Black.ttf in Resources */,
 				B72ABCAC28255EA300B939DB /* Preview Assets.xcassets in Resources */,
+				B72ABCCD2825636B00B939DB /* SourceSerifPro-SemiBoldItalic.ttf in Resources */,
 				B72ABCA928255EA300B939DB /* Assets.xcassets in Resources */,
+				B72ABCCB2825636B00B939DB /* SourceSerifPro-SemiBold.ttf in Resources */,
+				B72ABCD12825636B00B939DB /* SourceSerifPro-ExtraLight.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,10 +305,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B77A677F2826ED49005CC98A /* NavigationTransition.swift in Sources */,
 				B72ABCAE28255EA300B939DB /* Persistence.swift in Sources */,
+				B72ABCDB2825795300B939DB /* LoginView.swift in Sources */,
+				B77A677C2826EB23005CC98A /* AppRoute.swift in Sources */,
 				B72ABCA728255EA000B939DB /* ContentView.swift in Sources */,
+				B72ABCD62825652000B939DB /* UIFonts.swift in Sources */,
+				B72ABCDE282579B800B939DB /* SignUpView.swift in Sources */,
+				B77A67822826EDA7005CC98A /* View+Extension.swift in Sources */,
 				B72ABCB128255EA300B939DB /* ShoeShop.xcdatamodeld in Sources */,
+				B77A67842827CA5C005CC98A /* HomeView.swift in Sources */,
 				B72ABCA528255EA000B939DB /* ShoeShopApp.swift in Sources */,
+				B72ABCD82825667E00B939DB /* UIColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +448,7 @@
 				DEVELOPMENT_TEAM = AGZWLP9X5V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShoeShop/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -307,6 +478,7 @@
 				DEVELOPMENT_TEAM = AGZWLP9X5V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShoeShop/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -347,6 +519,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B77A67782826EA62005CC98A /* XCRemoteSwiftPackageReference "SwiftUIRouter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/frzi/SwiftUIRouter.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B77A67792826EA62005CC98A /* SwiftUIRouter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B77A67782826EA62005CC98A /* XCRemoteSwiftPackageReference "SwiftUIRouter" */;
+			productName = SwiftUIRouter;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		B72ABCAF28255EA300B939DB /* ShoeShop.xcdatamodeld */ = {
