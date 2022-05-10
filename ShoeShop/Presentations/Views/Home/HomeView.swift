@@ -6,9 +6,14 @@ struct HomeView: View {
     var body: some View {
         GeometryReader { geometry in
             ZStack {
-                Spacer()
-                    .frame(height: 293)
-                    .background(Color.primaryColor)
+                VStack {
+                    Spacer()
+                        .frame(maxWidth: geometry.size.width)
+                        .frame(height: geometry.safeAreaInsets.top + 248)
+                        .background(Color.primaryColor)
+                    
+                    Spacer()
+                }
                 
                 VStack(spacing: 0) {
                     HStack(alignment: .top) {
@@ -26,6 +31,8 @@ struct HomeView: View {
                             .padding(.all, 8)
                             .scaledToFit()
                     }
+                    .padding(.top, geometry.safeAreaInsets.top)
+                    .padding(.horizontal, 20)
 
                     Spacer().frame(height: 26)
 
@@ -47,13 +54,34 @@ struct HomeView: View {
                     .padding(.horizontal, 10)
                     .background(.background)
                     .cornerRadius(40)
+                    .padding(.horizontal, 20)
+                   
+                    
 
                     Spacer().frame(height: 16)
 
-                    CarouselShoeItem()
+                    CarouselView(numberOfItems: 5) {
+                        CarouselShoeItem()
+                            .frame(width: geometry.size.width - 40, height: 160)
+                            .padding(.horizontal, 4)
+                        CarouselShoeItem()
+                            .frame(width: geometry.size.width - 40, height: 160)
+                            .padding(.horizontal, 4)
+                        CarouselShoeItem()
+                            .frame(width: geometry.size.width - 40, height: 160)
+                            .padding(.horizontal, 4)
+                        CarouselShoeItem()
+                            .frame(width: geometry.size.width - 40, height: 160)
+                            .padding(.horizontal, 4)
+                        CarouselShoeItem()
+                            .frame(width: geometry.size.width - 40, height: 160)
+                            .padding(.horizontal, 4)
+                    }
+                    .padding(.horizontal, 16)
+                    .frame(height: 160)
+                    
+                    Spacer()
                 }
-                .padding(.top, geometry.safeAreaInsets.top)
-                .padding(.horizontal, 20)
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
             .ignoresSafeArea()
@@ -129,10 +157,9 @@ struct CarouselShoeItem: View {
             .frame(maxWidth: .infinity)
         }
         .padding(.all, 13)
-        .frame(maxWidth: .infinity)
-        .frame(height: 160)
+       
         .background(Color.white)
         .cornerRadius(8)
-        .shadow(color: .black.opacity(0.2), radius: 4, x: 0, y: 0)
+        .shadow(color: .black.opacity(0.2), radius: 2, x: 0, y: 0)
     }
 }

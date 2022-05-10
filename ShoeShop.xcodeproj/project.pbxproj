@@ -29,6 +29,7 @@
 		B72ABCD82825667E00B939DB /* UIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72ABCD72825667E00B939DB /* UIColors.swift */; };
 		B72ABCDB2825795300B939DB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72ABCDA2825795300B939DB /* LoginView.swift */; };
 		B72ABCDE282579B800B939DB /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72ABCDD282579B800B939DB /* SignUpView.swift */; };
+		B745B8C2282AE1AC00E33546 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745B8C1282AE1AC00E33546 /* CarouselView.swift */; };
 		B77A677A2826EA62005CC98A /* SwiftUIRouter in Frameworks */ = {isa = PBXBuildFile; productRef = B77A67792826EA62005CC98A /* SwiftUIRouter */; };
 		B77A677C2826EB23005CC98A /* AppRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A677B2826EB23005CC98A /* AppRoute.swift */; };
 		B77A677F2826ED49005CC98A /* NavigationTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A677E2826ED49005CC98A /* NavigationTransition.swift */; };
@@ -61,6 +62,7 @@
 		B72ABCD72825667E00B939DB /* UIColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColors.swift; sourceTree = "<group>"; };
 		B72ABCDA2825795300B939DB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		B72ABCDD282579B800B939DB /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		B745B8C1282AE1AC00E33546 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		B77A677B2826EB23005CC98A /* AppRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRoute.swift; sourceTree = "<group>"; };
 		B77A677E2826ED49005CC98A /* NavigationTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTransition.swift; sourceTree = "<group>"; };
 		B77A67812826EDA7005CC98A /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 		B72ABCB82825608000B939DB /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				B745B8C1282AE1AC00E33546 /* CarouselView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				B77A677C2826EB23005CC98A /* AppRoute.swift in Sources */,
 				B72ABCA728255EA000B939DB /* ContentView.swift in Sources */,
 				B72ABCD62825652000B939DB /* UIFonts.swift in Sources */,
+				B745B8C2282AE1AC00E33546 /* CarouselView.swift in Sources */,
 				B72ABCDE282579B800B939DB /* SignUpView.swift in Sources */,
 				B77A67822826EDA7005CC98A /* View+Extension.swift in Sources */,
 				B72ABCB128255EA300B939DB /* ShoeShop.xcdatamodeld in Sources */,
