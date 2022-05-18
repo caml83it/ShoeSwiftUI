@@ -27,7 +27,7 @@ struct CarouselView<Content:View>: View {
             }
             .frame(width: geometry.size.width, height: geometry.size.height, alignment: .leading)
             .offset(x: CGFloat(self.currentIndex) * -geometry.size.width, y: 0)
-            .animation(.spring())
+            .animation(.spring(), value: CGFloat(self.currentIndex) * -geometry.size.width)
             .onReceive(self.timer) { _ in
                 self.currentIndex = (self.currentIndex + 1) % self.numberOfItems
             }
