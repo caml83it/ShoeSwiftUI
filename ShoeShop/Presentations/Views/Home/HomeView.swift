@@ -202,11 +202,8 @@ struct HShoeCardView: View {
 }
 
 struct Header: View {
-    var avatarSize: CGFloat = 86
     @Binding var email: String
     @Binding var offset: CGFloat
-    var _avatarOffsetX: CGFloat = 86 / 2 + 20
-    var _avatarOffsetY: CGFloat = 86 / 2 + 4
     
     var body: some View {
         GeometryReader { geo in
